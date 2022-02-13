@@ -1,0 +1,61 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add https
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\eder\AppData\Local\Microsoft\WindowsApps;C:\Users\eder\AppData\Roaming\npm;C:\src\flutter\bin;C:\Users\eder\AppData\Local\Android\Sdk\platform-tools;C:\Users\eder\AppData\Local\Programs\Microsoft VS Code\bin;C:\adb;C:\Go\bin;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\Users\eder\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\ngrok;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\eder\AppData\Local\Microsoft\WindowsApps;C:\Users\eder\AppData\Roaming\npm;C:\src\flutter\bin;C:\Users\eder\AppData\Local\Android\Sdk\platform-tools;C:\Users\eder\AppData\Local\Programs\Microsoft VS Code\bin;C:\adb;C:\Go\bin;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u282-b08\bin;C:\Users\eder\AppData\Local\Android\Sdk\platform-tools;C:\Users\eder\go\bin;C:\Program Files\heroku\bin;C:\Users\eder\AppData\Local\Yarn\bin;C:\Program Files\ngrok;
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  15.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, copyfile 'C:\Users\eder\AppData\Local\Yarn\Cache\v6\npm-lodash-4.17.21-679591c564c3bffaae8454cf0b3df370c3d6911c-integrity\node_modules\lodash\fp\pullAllBy.js' -> 'C:\Users\eder\Desktop\tesis proyecto\backend-cursos-online-node\node_modules\lodash\fp\pullAllBy.js'
+
+npm manifest: 
+  {
+    "name": "backend-cursos-online-tesis",
+    "version": "0.0.1",
+    "description": "Backend para la venta y compra de cursos online facci",
+    "main": "index.js",
+    "author": "Eder Zambrano Mero",
+    "license": "MIT",
+    "dependencies": {
+      "bcrypt-nodejs": "^0.0.3",
+      "body-parser": "^1.19.0",
+      "chalk": "^4.1.0",
+      "connect-multiparty": "^2.2.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "ffmpeg": "^0.0.4",
+      "global": "^4.4.0",
+      "jsonwebtoken": "^8.5.1",
+      "jwt-simple": "^0.5.6",
+      "moment": "^2.29.1",
+      "mongoose": "^5.10.9",
+      "mongoose-paginate": "^5.0.3",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.2",
+      "nodemailer": "^6.4.14",
+      "pdfkit": "^0.11.0",
+      "stripe": "^8.137.0",
+      "thumbsupply": "^0.4.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.5"
+    },
+    "scripts": {
+      "dev": "nodemon index.js",
+      "start": "node index.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
